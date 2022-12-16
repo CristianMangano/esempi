@@ -25,7 +25,7 @@ int main(void) {
     char str_in[100];
     gets(str_in);
 
-    int dimension = (strlen(str_in)) + 1;
+    int dimension = (strlen(str_in)) + 1;   // la funzione strlen() quando ritorna la lunghezza della stringa esclude il carattere terminatore '\0'
 
     char * stringInHeap = stringaEverInMem(str_in, dimension);
 
