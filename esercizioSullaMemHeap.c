@@ -1,4 +1,4 @@
-/* Inserisci del testo da tastiera ed il programma restituisce un riferimento ad un array, dimensionato sui caratteri di input, piu' il carattere terminatore '\0' */
+/* Inserisci del testo da tastiera e la funzione restituisce un riferimento ad un array, dimensionato sui caratteri di input piu' il carattere terminatore '\0' */
 
 #include <stdio.h>
 #include <stdlib.h>
